@@ -1,15 +1,7 @@
-=== Woocommerce Custom Registration ===
-Contributors: MUGA ICT
-Tags: woocommerce regsitration, woocommerce, woocommerce custom registration, woocommerce account
-Requires at least: 3.0.1
-Tested up to: 5.0.3
-Stable tag: {{plugin-version}}
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+[![Make a pull request][prs-badge]][prs]
+[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE)
 
-This plugin allows you to customize the WooCommerce registration form. 
-
-== Description ==
+# Description
 
 This plugin allows you to customize the WooCommerce registration form and collect extra user data.
  
@@ -19,8 +11,6 @@ The custom registration form will appear on WooCommerce's "my account" and "chec
  
 Many custom input elements available to create your preferred WooCommerce registration form:
 
-[Template vector created by freepik - www.freepik.com](https://www.freepik.com/free-photos-vectors/template)
-
 - text
 - textarea
 - number
@@ -28,27 +18,43 @@ Many custom input elements available to create your preferred WooCommerce regist
 - select
 - checkbox
 
-== Installation ==
+## Requirement
 
-1. Upload `woocommerce-custom-registration` directory to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Make sure that you have installed and actived the WooCommerce plugin
-4. Go to "WooCommerce => Settings => Accounts & Privacy => Account creation	" and check option 
-"Allow customers to create an account on the 'My account' page"
+- WooCommerce plugin 
 
-== Frequently Asked Questions ==
+## Ready to install version
 
-= Minimum Requirements =
-* PHP version 5.6.0 or greater (PHP 7.1 or greater is recommended)
-* MySQL version 5.6 or greater
+WordPress plugins directory link: [Woocommerce Custom Registration](https://wordpress.org/plugins/woo-custom-registration/) 
 
-== Screenshots ==
+## Changelog
 
-1. Form elements
-2. Element settings
-3. Frontend rendering
+- 1.0.0 First release
 
-== Changelog ==
+## Getting Started
 
-= 1.0.0 =
-* First release
+Clone this repository locally :
+
+``` bash
+git clone https://github.com/ulver2812/woo-custom-registration.git
+```
+
+Install dependencies with npm :
+
+``` bash
+npm install
+```
+
+## To build for production
+
+- **in a terminal window** => npm run makepot
+
+and then
+
+- **in a terminal window** => npm run build
+  
+Those commands generate an updated .pot file and create a builded version in "dist" folder.
+
+[license-badge]: https://img.shields.io/badge/license-Apache2-blue.svg?style=flat
+[license]: https://github.com/ulver2812/woo-custom-registration/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com

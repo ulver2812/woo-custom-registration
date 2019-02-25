@@ -10,8 +10,8 @@ fse.copySync('languages', 'dist/' + plugin_name + '/languages');
 fse.copySync('assets', 'dist/' + plugin_name + '/assets');
 fse.copySync('index.php', 'dist/' + plugin_name + '/index.php');
 fse.copySync('LICENSE.txt', 'dist/' + plugin_name + '/LICENSE.txt');
-fse.copySync('README.md', 'dist/' + plugin_name + '/README.txt');
-fse.copySync('README.md', 'dist/' + plugin_name + '/README.md');
+fse.copySync('WPREADME.md', 'dist/' + plugin_name + '/README.txt');
+fse.copySync('WPREADME.md', 'dist/' + plugin_name + '/README.md');
 fse.copySync('' + plugin_name + '.php', 'dist/' + plugin_name + '/' + plugin_name + '.php');
 fse.copySync('uninstall.php', 'dist/' + plugin_name + '/uninstall.php');
 
