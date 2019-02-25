@@ -1,0 +1,26 @@
+{
+  "name": "woo-custom-registration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "makepot": "echo \"Makepot running...\" && node makepot && exit 0",
+    "build": "echo \"Build running...\" && node build && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ulver85@bitbucket.org/ulver85/woocommerce-custom-registration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ulver85/woocommerce-custom-registration#readme",
+  "devDependencies": {
+    "flags": "^0.1.3",
+    "fs-extra": "^7.0.0",
+    "request": "^2.87.0",
+    "unzip": "^0.1.11",
+    "wp-pot": "^1.6.1",
+    "zip-dir": "^1.0.2"
+  }
+}
